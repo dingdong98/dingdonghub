@@ -1,14 +1,28 @@
-# dingdonghub
-基于Node中koa框架搭建的博客业务后台接口
 A dingdonghub development using node koa （基于koa搭建dingdonghub后台接口）
+
+## 零、项目运行说明
+将项目`下载`或者`clone`到本地，使用`VScode`打开项目文件夹
+
+1. 打开node终端
+   1. 选中项目文件夹右键或者使用快捷键`Alt + ~`打开终端
+2. 运行`npm install`初始化项目依赖
+
+![image.png](https://cdn.nlark.com/yuque/0/2022/png/25995508/1658283269591-805c0cbc-de1a-4c27-9e78-13132b2c3863.png#clientId=u63cfa375-a4df-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=582&id=u0fc6c013&margin=%5Bobject%20Object%5D&name=image.png&originHeight=1164&originWidth=1713&originalType=binary&ratio=1&rotation=0&showTitle=false&size=169675&status=done&style=none&taskId=uf66c2bea-8d20-4317-850a-d89f956be0d&title=&width=856.5)
+
+3. 配置`.env文件`
+   1. 该文件为服务器全局变量，示例配置如下：
+
+![image.png](https://cdn.nlark.com/yuque/0/2022/png/25995508/1658283690133-97db348a-e35a-4059-a82f-5cd71d63e394.png#clientId=u63cfa375-a4df-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=318&id=u13498be0&margin=%5Bobject%20Object%5D&name=image.png&originHeight=636&originWidth=1533&originalType=binary&ratio=1&rotation=0&showTitle=false&size=118076&status=done&style=none&taskId=u1253074d-19c8-435b-80b6-b7d7f312d5e&title=&width=766.5)
+
+4. 启动项目`node ./src/main.j`
+
+![image.png](https://cdn.nlark.com/yuque/0/2022/png/25995508/1658283751050-521d09c4-ecab-45b3-8f33-4c8f7206f58e.png#clientId=u63cfa375-a4df-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=83&id=ue46a0833&margin=%5Bobject%20Object%5D&name=image.png&originHeight=165&originWidth=944&originalType=binary&ratio=1&rotation=0&showTitle=false&size=42155&status=done&style=none&taskId=u01cc495b-05df-4bb8-b4f0-49b37ad5473&title=&width=472)
 ## 一、接口功能说明
 dingdonghub旨在创建一个程序员分享生活动态的平台
 完整的项目接口包括：
 
 1. 面向用户的业务接口
 1. 面向企业内部的后台管理接口
-
-- 该项目只实现面向用户的业务接口
 
 完整的功能如下：
 
@@ -305,4 +319,3 @@ Postman中的接口列表：
 ![image.png](https://cdn.nlark.com/yuque/0/2022/png/25995508/1658216567652-f56d0be2-e3ec-4951-a0ac-aa107417ea4d.png#clientId=u4170f90e-ded1-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=98&id=ua6e7e7c3&margin=%5Bobject%20Object%5D&name=image.png&originHeight=196&originWidth=1732&originalType=binary&ratio=1&rotation=0&showTitle=false&size=58117&status=done&style=none&taskId=ub66e8667-7934-41a8-a5bd-add8aca4ff0&title=&width=866)
 #### 接口验证
 ![image.png](https://cdn.nlark.com/yuque/0/2022/png/25995508/1658217864699-0d9439a2-ca53-49eb-8f09-54ed87f62d51.png#clientId=u4170f90e-ded1-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=498&id=u939e0986&margin=%5Bobject%20Object%5D&name=image.png&originHeight=996&originWidth=2012&originalType=binary&ratio=1&rotation=0&showTitle=false&size=146517&status=done&style=none&taskId=u1738b8e1-0675-4b87-8c28-86e778a20a1&title=&width=1006)
-
